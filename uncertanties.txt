@@ -1,0 +1,24 @@
+Inputs
+	Xarray
+		Measurements
+			Wave parameters
+		Uncertainty
+			False
+
+Uncertainty analysis:
+	Noise floor
+		Wave parameters
+	Generated
+		Type A
+	Calculations
+		Covariance eigenvalue decomposition
+			Truncated
+	Correlations
+		real and imaginary of a and b waves and frequency
+		
+Output
+	RME object
+		Noise floor
+			https://github.com/jasperstroud/noise-floor
+		Uncertainty
+			True
